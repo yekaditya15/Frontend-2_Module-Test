@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin-left: 5%;
+  padding: 20px 10px;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.input-row {
+  display: flex;
+  gap: 20px;
+}
+
+.input-group input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  outline: none;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+button {
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+#message {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.employee-list {
+  margin-top: 20px;
+}
+
+.employee-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px 0;
+}
+
+.employee-box {
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  width: 75%;
+  gap: 15px;
+}
+
+.employee-number {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.delete-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+#noEmployees {
+  color: gray;
+  font-style: italic;
+}
